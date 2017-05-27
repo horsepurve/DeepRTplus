@@ -1,1 +1,1 @@
-to appear after the acceptance of the paper 
+to appear after the publication of the paper 
