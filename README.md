@@ -1,8 +1,7 @@
 # DeepRT: deep learning for peptide retention time prediction in proteomics
 
 ## Preprint
-[arXiv:1705.05368][1]
-[1]: https://arxiv.org/abs/1705.05368 "arXiv"
+[arXiv:1705.05368](https://arxiv.org/abs/1705.05368)
 
 ## Introduction
 In separation science and analytical chemistry, the prediction of retention times were primarily based on retention coefficients of amino acids or molecular descriptors of metabolites. 
