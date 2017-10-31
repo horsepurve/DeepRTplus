@@ -1,4 +1,4 @@
-# DeepRT: deep learning for peptide retention time prediction in proteomics
+# DeepRT: Deep Transfer Learning for Peptide Retention Time Prediction in Liquid Chromatography
 
 ## Preprint
 [arXiv:1705.05368](https://arxiv.org/abs/1705.05368)
@@ -8,6 +8,7 @@ In separation science and analytical chemistry, the prediction of retention time
  <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_1.png" width="45%" alt="figure_1" /></div>
 
 ## Data Efficiency and Time Complexity
+While testing, ResNet was run on NVIDIA Tesla M2070 while LSTM was run on Intel CPU with 12 cores. 
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_3.png" width="60%" alt="figure_1" /></div>
 
 ## Usage
