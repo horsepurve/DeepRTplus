@@ -29,7 +29,7 @@ After the training processes of LSTM and ResNet are all finished, we can ensembl
 ```
 easy_ensemble.exe config_mod.json
 ```
-And then the Pearson correlation, RMSE, \Delta t<sub>95%</sub> and the running time will be reported. The predicted retention time for each peptide in the testing dataset will be written to the results directory.
+And then the Pearson correlation, RMSE, &Delta t<sub>95%</sub> and the running time will be reported. The predicted retention time for each peptide in the testing dataset will be written to the results directory.
 
 ## contact
 machunwei@genomics.cn
