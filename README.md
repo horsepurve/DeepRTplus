@@ -16,7 +16,7 @@ As a brief conclution, by virtue of deep transfer learning, we can 1) predict RT
 </br></br>Recent studies in analytical chemistry exhibited that the accuracy of relatively simple additive models for RT prediction decreases in the order: CZE (0.995 R<sup>2</sup>) > SCX (0.991 R<sup>2</sup>) > HILIC (0.98 R<sup>2</sup>) > RPLC (∼0.965 R<sup>2</sup>), because of the difference in their separation mechanisms. DeepRT improves the accuracy of RT prediction in RPLC up to as high as ~0.993 R<sup>2</sup>, approaching that of CZE, and thus gives separation scientists insights into the selection of LC types in LCMS experiments.
 
 ## Data Efficiency and Time Complexity
-The following figure shows the performance of DeepRT with training data incresing. While testing, ResNet was run on NVIDIA Tesla M2070 while LSTM was run on Intel CPU with 12 cores. With training larger than 10k peptides, SVM-based method is prohibitively slow while DeepRT, instead, was still efficient, due to its linear time complexity w.r.t number of samples.
+The following figure shows the performance of DeepRT with training data incresing. While testing, ResNet was run on NVIDIA Tesla M2070 while LSTM was run on Intel CPU with 12 cores. With training data larger than 10k peptides, SVM-based method was prohibitively slow while DeepRT, however, was still efficient, due to its linear time complexity w.r.t number of samples.
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_3.png" width="60%" alt="figure_1" /></div>
 
 ## Usage
