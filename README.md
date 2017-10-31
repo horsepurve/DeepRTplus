@@ -11,7 +11,7 @@ In separation science and analytical chemistry, the prediction of retention time
 Using a large peptide dataset with 146587 peptides (131928 peptides for training and 14659 for testing), DeepRT achieved a **Pearson's correlation as high as 0.996** and a <b>R<sup>2</sup> of 0.993</b>, as shown in following figure.
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_4.png" width="60%" alt="figure_1" /></div>
 While transferring this trained model to other datasets, the prediction accuracy was further improved and the running time was reduced, even though the source and target dataset were generated under different liquid chromatography conditions, as shown in the figure below.
-<div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_2.png" width="65%" alt="figure_1" /></div>
+<div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_2.png" width="50%" alt="figure_1" /></div>
 As a brief conclution, by virtue of deep transfer learning, we can 1) predict RT for both modified and unmodified peptides using the same algorithm, 2) refine RT estimation using pretrained RT model, 3) use unmodified peptides to help prediction of modified peptides and vice versa.
 
 ## Data Efficiency and Time Complexity
