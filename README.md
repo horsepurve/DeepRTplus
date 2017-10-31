@@ -8,7 +8,8 @@ In separation science and analytical chemistry, the prediction of retention time
  <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_1.png" width="45%" alt="figure_1" /></div>
 
 ## Prediction Accuracy
-Using a large peptide dataset with 146587 peptides (131928 peptides for training and 14659 for testing), the prediction accucacy of DeepRT is as high as **Pearson's correlation 0.996** and <b>R<sup>2</sup> 0.993</b>, as shown in following figure.
+Using a large peptide dataset with 146587 peptides (131928 peptides for training and 14659 for testing), DeepRT achieved a **Pearson's correlation as high as 0.996** and a <b>R<sup>2</sup> of 0.993</b>, as shown in following figure.
+<div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_4.png" width="60%" alt="figure_1" /></div>
 
 ## Data Efficiency and Time Complexity
 While testing, ResNet was run on NVIDIA Tesla M2070 while LSTM was run on Intel CPU with 12 cores. 
