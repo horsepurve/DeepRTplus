@@ -9,7 +9,7 @@ In separation science and analytical chemistry, the predictions of retention tim
 We adopted an N-to-1 LSTM architecture for RT modeling while ResNet was upon the one-hot encoded peptides, in parallel. Finally, the two outputs were assembled.
 
 ## Prediction Accuracy
-Using a large peptide dataset with 146587 peptides (131928 peptides for training and 14659 for testing), DeepRT achieved a **Pearson's correlation as high as 0.996** and an <b>R<sup>2</sup> of 0.993</b>, as shown in following figure.
+Using a large peptide dataset generated from RPLC with 146587 peptides (131928 peptides for training and 14659 for testing), DeepRT achieved a **Pearson's correlation as high as 0.996** and an <b>R<sup>2</sup> of 0.993</b>, as shown in following figure.
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_4.png" width="60%" alt="figure_1" /></div>
 While transferring this trained model to other datasets, the prediction accuracy was further improved and the running time was reduced, even though the source and target datasets were generated under different liquid chromatographic conditions, as shown in the figure below, in which (A, B, C, D) are of modified dataset while (E, F, G, H) are of unmodified dataset.
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_2.png" width="50%" alt="figure_1" /></div>
