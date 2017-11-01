@@ -6,6 +6,7 @@
 ## Brief Introduction
 In separation science and analytical chemistry, the prediction of retention times were primarily based on retention coefficients of amino acids or molecular descriptors of metabolites. Traditionally, retention times of peptides with or without post-translational modifications are predicted separately, and retention times in RPLC, HILIC or SCX are also predicted separately. DeepRT, instead, provides a generic framework for RT prediction, whose architecture is shown in the following figure.
  <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_1.png" width="45%" alt="figure_1" /></div>
+We adopted a N-to-1 LSTM architecture for RT modeling while ResNet was upon the one-hot encoded peptides, in parallel. Finally, the two outputs were assembled.
 
 ## Prediction Accuracy
 Using a large peptide dataset with 146587 peptides (131928 peptides for training and 14659 for testing), DeepRT achieved a **Pearson's correlation as high as 0.996** and an <b>R<sup>2</sup> of 0.993</b>, as shown in following figure.
