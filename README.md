@@ -1,7 +1,7 @@
 # DeepRT: Deep Transfer Learning for Peptide Retention Time Prediction under Different Liquid Chromatographic Conditions
 
 ## Preprint
-[arXiv:1705.05368](https://arxiv.org/abs/1705.05368)
+[arXiv:1705.05368](https://arxiv.org/abs/1705.05368) (15 May 2017)
 
 ## Brief Introduction
 In separation science and analytical chemistry, the prediction of retention times were primarily based on retention coefficients of amino acids or molecular descriptors of metabolites. Traditionally, retention times of peptides with or without post-translational modifications are predicted separately, and retention times in RPLC, HILIC or SCX are also predicted separately. DeepRT, instead, provides a generic framework for RT prediction, whose architecture is shown in the following figure.
