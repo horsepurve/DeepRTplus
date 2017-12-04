@@ -5,7 +5,7 @@
 <!-- </br>[arXiv:1711.00045](https://arxiv.org/abs/1711.00045) (31 Oct 2017) -->
 ## Citation
 @article{ma2017retention,
-</br>  title={Retention Time of Peptides in Liquid Chromatography Is Well Estimated upon Deep Transfer Learning},
+</br>&nbsp;&nbsp;  title={Retention Time of Peptides in Liquid Chromatography Is Well Estimated upon Deep Transfer Learning},
 </br>  author={Ma, Chunwei and Zhu, Zhiyong and Ye, Jun and Yang, Jiarui and Pei, Jianguo and Xu, Shaohang and Yu, Chang and Mo, Fan and Wen, Bo and Liu, Siqi},
 </br>  journal={arXiv preprint arXiv:1711.00045},
 </br>  year={2017}
