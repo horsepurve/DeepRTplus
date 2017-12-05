@@ -1,8 +1,8 @@
 # DeepRT: Deep Transfer Learning for Peptide Retention Time Prediction under Different Liquid Chromatographic Conditions
 
-<!-- ## Preprint -->
-<!-- [arXiv:1705.05368](https://arxiv.org/abs/1705.05368) (15 May 2017) early version -->
-<!-- </br>[arXiv:1711.00045](https://arxiv.org/abs/1711.00045) (31 Oct 2017) -->
+<!-- ## Preprint 
+[arXiv:1705.05368](https://arxiv.org/abs/1705.05368) (15 May 2017)
+</br>[arXiv:1711.00045](https://arxiv.org/abs/1711.00045) (31 Oct 2017) -->
 ## Citation
 @article{ma2017retention,
 </br>&nbsp;&nbsp;title={Retention Time of Peptides in Liquid Chromatography Is Well Estimated upon Deep Transfer Learning},
