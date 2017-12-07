@@ -4,6 +4,7 @@
 [arXiv:1705.05368](https://arxiv.org/abs/1705.05368) (15 May 2017)
 </br>[arXiv:1711.00045](https://arxiv.org/abs/1711.00045) (31 Oct 2017) -->
 ## Citation
+Please cite as:
 @article{ma2017retention,
 </br>&nbsp;&nbsp;title={Retention Time of Peptides in Liquid Chromatography Is Well Estimated upon Deep Transfer Learning},
 </br>&nbsp;&nbsp;author={Ma, Chunwei and Zhu, Zhiyong and Ye, Jun and Yang, Jiarui and Pei, Jianguo and Xu, Shaohang and Yu, Chang and Mo, Fan and Wen, Bo and Liu, Siqi},
@@ -50,6 +51,9 @@ After the training processes of LSTM and ResNet are all finished, we can ensembl
 easy_ensemble.exe config_mod.json
 ```
 And then the Pearson correlation, RMSE, &Delta;t<sub>95%</sub> and the running time will be reported. The predicted retention time for each peptide in the testing dataset will be written to the results directory.
+
+## DeeperRT
+The authors recommend using [DeeperRT](https://github.com/horsepurve/DeeperRT), a upgraded more powerful version of DeepRT, for peptide retention time prediction.
 
 ## contact
 machunwei@genomics.cn
