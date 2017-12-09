@@ -22,11 +22,11 @@ Using a large peptide dataset generated from RPLC with 146587 peptides (131928 p
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_4.png" width="60%" alt="figure_1" /></div>
 While transferring this trained model to other datasets, the prediction accuracy was further improved and the running time was reduced, even though the source and target datasets were generated under different liquid chromatographic conditions, as shown in the table and the figure below, in which (A, B, C, D) are of modified dataset while (E, F, G, H) are of unmodified dataset.
 
-Name | Academy | score 
-- | :-: | -: 
-Harry Potter | Gryffindor| 90 
-Hermione Granger | Gryffindor | 100 
-Draco Malfoy | Slytherin | 90
+| Name | Academy | score | 
+| - | :-: | -: | 
+| Harry Potter | Gryffindor| 90 | 
+| Hermione Granger | Gryffindor | 100 | 
+| Draco Malfoy | Slytherin | 90 |
 
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_2.png" width="50%" alt="figure_1" /></div>
 As a brief conclusion, by virtue of deep transfer learning, we can 1) predict RT for both modified and unmodified peptides using the same algorithm, 2) refine RT estimation using pretrained RT model, 3) use unmodified peptides to help prediction of modified peptides and vice versa.
