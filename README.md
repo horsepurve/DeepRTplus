@@ -22,11 +22,11 @@ Using a large peptide dataset generated from RPLC with 146587 peptides (131928 p
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_4.png" width="60%" alt="figure_1" /></div>
 While transferring this trained model to other datasets, the prediction accuracy was further improved and the running time was reduced, even though the source and target datasets were generated under different liquid chromatographic conditions, as shown in the table and the figure below, in which (A, B, C, D) are of modified dataset while (E, F, G, H) are of unmodified dataset.
 
-| dataset | modification | RT | peptides | max length | training | testing | Pearson | R<sup>2</sup> | &Delta;t<sub>95%</sub> |
+| dataset | modification | RT (min) | peptides | length | training | testing | Pearson | R<sup>2</sup> | &Delta;t<sub>95%</sub> |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
-| mouse | modified | 0~109 | 3413 | 50 | 3071 | 342 | 0.989 | 0.978 | 8.85 |
-| yeast | unmodified | 0~263 | 14361 | 38 | 12924 | 1437 | 0.996 | 0.992 | 18.02 |
-| human | unmodified | -60~183* | 146587 | 66 | 131928 | 14659 | 0.996 | 0.993 | 14.65 |
+| mouse | modified | 0~109 | 3413 | 7~50 | 3071 | 342 | 0.989 | 0.978 | 8.85 |
+| yeast | unmodified | 0~263 | 14361 | 6~38 | 12924 | 1437 | 0.996 | 0.992 | 18.02 |
+| human | unmodified | -60~183* | 146587 | 7~66 | 131928 | 14659 | 0.996 | 0.993 | 14.65 |
 
 (* The retention times of human dataset were normalized using iRT Kit.)
 
