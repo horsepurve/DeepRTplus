@@ -27,6 +27,7 @@ While transferring this trained model to other datasets, the prediction accuracy
 | mouse | modified | 0~109 | 3413 | 50 | 3071 | 342 | 0.989 | 0.978 | 8.85 |
 | yeast | unmodified | 0~263 | 14361 | 38 | 12924 | 1437 | 0.996 | 0.992 | 18.02 |
 | human | unmodified | -60~183* | 146587 | 66 | 131928 | 14659 | 0.996 | 0.993 | 14.65 |
+
 (* The retention times of human dataset were normalized using iRT Kit.)
 
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_2.png" width="50%" alt="figure_1" /></div>
