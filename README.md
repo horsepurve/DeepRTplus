@@ -5,14 +5,12 @@
 </br>[arXiv:1711.00045](https://arxiv.org/abs/1711.00045) (31 Oct 2017) -->
 ## Citation
 Please cite as:
-```
 </br>@article{ma2017retention,
 </br>&nbsp;&nbsp;title={Retention Time of Peptides in Liquid Chromatography Is Well Estimated upon Deep Transfer Learning},
 </br>&nbsp;&nbsp;author={Ma,C. and Zhu,Z. et al.},
 </br>&nbsp;&nbsp;journal={arXiv preprint [arXiv:1711.00045](https://arxiv.org/abs/1711.00045)},
 </br>&nbsp;&nbsp;year={2017}
 </br>}
-```
 
 ## Brief Introduction
 In separation science and analytical chemistry, the predictions of retention times were primarily based on retention coefficients of amino acids or molecular descriptors of metabolites. Traditionally, retention times of peptides with or without post-translational modifications are predicted separately, and retention times in RPLC, HILIC or SCX are also predicted separately. DeepRT, instead, provides a generic framework for RT prediction, whose architecture is shown in the following figure.
