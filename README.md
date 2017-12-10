@@ -1,4 +1,4 @@
-# DeepRT: Deep Transfer Learning for Peptide Retention Time Prediction under Different Liquid Chromatographic Conditions Using Hybrid LSTM-ResNet Architecture
+# DeepRT: Deep Transfer Learning for Peptide Retention Time Prediction Using Hybrid LSTM-ResNet Architecture
 
 <!-- ## Preprint 
 [arXiv:1705.05368](https://arxiv.org/abs/1705.05368) (15 May 2017)
