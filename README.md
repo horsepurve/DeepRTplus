@@ -84,7 +84,9 @@ And then the Pearson correlation, RMSE, &Delta;t<sub>95%</sub> and the running t
 The authors recommend using [DeeperRT](https://github.com/horsepurve/DeeperRT), a upgraded more powerful version of DeepRT, for peptide retention time prediction.
 
 ## Software Copyright
-&copy; 2017
+&copy; 2017 BGI & Intel
+<img src="https://github.com/horsepurve/DeepRT/blob/master/img/bgi.png" width="60%" alt="bgi" />
+<img src="https://github.com/horsepurve/DeepRT/blob/master/img/intel.png" width="60%" alt="intel" />
 
 ## contact
 machunwei@genomics.cn
