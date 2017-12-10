@@ -35,7 +35,7 @@ While transferring this trained model to other datasets, the prediction accuracy
 
 DeepRT with transfer learning (TL) outperforms DeepRT, ELUDE and GPTime consistently in different training-testing pairs of mouse dataset and yeast dataset and has the smallest width in the distribution curve of prediction error.
 
-</br>The predicted versus observed retention times of 5 random experiments of mouse (modified) dataset:
+The predicted versus observed retention times of 5 random experiments of mouse (modified) dataset:
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/pearson_10times.png" width="80%" alt="figure_s1" /></div>
 The predicted versus observed retention times of 5 random experiments of yeast (unmodified) dataset:
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/pearson_10times_unmod.png" width="80%" alt="figure_s1" /></div>
