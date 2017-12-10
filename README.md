@@ -86,7 +86,7 @@ The authors recommend using [DeeperRT](https://github.com/horsepurve/DeeperRT), 
 ## Software Copyright
 &copy; 2017 BGI & Intel
 <img src="https://github.com/horsepurve/DeepRT/blob/master/img/bgi.png" width="60%" alt="bgi" />
-<img src="https://github.com/horsepurve/DeepRT/blob/master/img/intel.png" width="60%" alt="intel" />
+<img src="https://github.com/horsepurve/DeepRT/blob/master/img/intel.jpg" width="60%" alt="intel" />
 
 ## contact
 machunwei@genomics.cn
