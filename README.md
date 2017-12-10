@@ -7,7 +7,7 @@
 Please cite as:
 > @article{ma2017retention,
 </br>&nbsp;&nbsp;title={Retention Time of Peptides in Liquid Chromatography Is Well Estimated upon Deep Transfer Learning},
-</br>&nbsp;&nbsp;author={Ma,C. and Zhu,Z. et al.},
+</br>&nbsp;&nbsp;author={Chunwei Ma and Zhiyong Zhu et al.},
 </br>&nbsp;&nbsp;journal={arXiv preprint [arXiv:1711.00045](https://arxiv.org/abs/1711.00045)},
 </br>&nbsp;&nbsp;year={2017}
 </br>}
@@ -33,7 +33,7 @@ While transferring this trained model to other datasets, the prediction accuracy
 
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_2.png" width="50%" alt="figure_1" /></div>
 
-DeepRT with transfer learning (TL) outperforms DeepRT, ELUDE and GPTime consistently in different training-testing pairs of mouse dataset and yeast dataset and has the smallest width in the distribution curve of prediction error.
+DeepRT with transfer learning (TL) outperforms DeepRT, ELUDE and GPTime consistently in different training/testing pairs of mouse and yeast datasets as shown in the following three figures.
 
 The predicted versus observed retention times of 5 random experiments of mouse (modified) dataset:
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/pearson_10times.png" width="80%" alt="figure_s1" /></div>
