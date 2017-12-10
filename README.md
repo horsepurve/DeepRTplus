@@ -35,11 +35,11 @@ While transferring this trained model to other datasets, the prediction accuracy
 
 DeepRT with transfer learning (TL) outperforms DeepRT, ELUDE and GPTime consistently in different training-testing pairs of mouse dataset and yeast dataset and has the smallest width in the distribution curve of prediction error.
 The predicted versus observed retention times of 5 random experiments of mouse (modified) dataset:
-<div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/pearson_10times.png" width="50%" alt="figure_s1" /></div>
+<div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/pearson_10times.png" width="75%" alt="figure_s1" /></div>
 The predicted versus observed retention times of 5 random experiments of yeast (unmodified) dataset:
-<div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/pearson_10times_unmod.png" width="50%" alt="figure_s1" /></div>
+<div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/pearson_10times_unmod.png" width="75%" alt="figure_s1" /></div>
 The distributions of prediction errors of mouse and yeast datasets:
-<div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/density_all.png" width="50%" alt="figure_s1" /></div>
+<div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/density_all.png" width="75%" alt="figure_s1" /></div>
 
 As a brief conclusion, by virtue of deep transfer learning, we can 1) predict RT for both modified and unmodified peptides using the same algorithm, 2) refine RT estimation using pretrained RT model, 3) use unmodified peptides to help prediction of modified peptides and vice versa.
 </br></br>Recent studies of this year in analytical chemistry exhibited that the accuracy of relatively simple additive models for RT prediction decreases in the order: CZE (0.995 R<sup>2</sup>) > SCX (0.991 R<sup>2</sup>) > HILIC (0.98 R<sup>2</sup>) > RPLC (∼0.965 R<sup>2</sup>), because of the difference in their separation mechanisms. DeepRT improves the accuracy of RT prediction in RPLC up to as high as ~0.993 R<sup>2</sup>, approaching that of CZE, and thus gives separation scientists insights into the selection of LC types in LC-MS experiments.
