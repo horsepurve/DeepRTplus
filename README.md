@@ -12,6 +12,14 @@ Please cite as:
 </br>&nbsp;&nbsp;year={2017}
 </br>}
 
+And cite:
+> @article{ma2017retention,
+</br>&nbsp;&nbsp;title={DeepRT: Deep Learning for Peptide Retention Time Prediction in Proteomics},
+</br>&nbsp;&nbsp;author={Chunwei Ma and Zhiyong Zhu et al.},
+</br>&nbsp;&nbsp;journal={arXiv preprint [arXiv:1705.05368](https://arxiv.org/abs/1705.05368)},
+</br>&nbsp;&nbsp;year={2017}
+</br>}
+
 ## Brief Introduction
 In separation science and analytical chemistry, the predictions of retention times were primarily based on retention coefficients of amino acids or molecular descriptors of metabolites. Traditionally, retention times of peptides with or without post-translational modifications are predicted separately, and retention times in RPLC, HILIC or SCX are also predicted separately. DeepRT, instead, provides a generic framework for RT prediction, whose architecture is shown in the following figure.
  <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_1.png" width="45%" alt="figure_1" /></div>
