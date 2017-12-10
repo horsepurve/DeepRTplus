@@ -58,7 +58,7 @@ The following figure shows the performance of DeepRT with training data incresin
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_3.png" width="60%" alt="figure_1" /></div>
 
 ## implement
-&#10003
+&#10003;
 
 ## Usage
 First fill in the configuration file config.json, in which all parameters for the software are stored. If you have not split the dataset into training and testing data, you can use the tool in the package, and if you have your own training and testing datasets, you can just skip this step:
