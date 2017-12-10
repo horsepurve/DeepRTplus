@@ -57,6 +57,9 @@ As a brief conclusion, by virtue of deep transfer learning, we can 1) predict RT
 The following figure shows the performance of DeepRT with training data incresing. While testing, ResNet was run on NVIDIA Tesla M2070 while LSTM was run on Intel CPU with 12 cores. With training data larger than 10k peptides, SVM-based method was prohibitively slow while DeepRT, however, was still efficient, due to its linear time complexity w.r.t number of samples.
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_3.png" width="60%" alt="figure_1" /></div>
 
+## implement
+&#10003
+
 ## Usage
 First fill in the configuration file config.json, in which all parameters for the software are stored. If you have not split the dataset into training and testing data, you can use the tool in the package, and if you have your own training and testing datasets, you can just skip this step:
 ```
