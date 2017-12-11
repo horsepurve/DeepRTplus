@@ -8,7 +8,7 @@ DeepRT/DeeperRT is currently the most accurate peptide retention time predictor,
 Please cite as:
 > @article{ma2017retention,
 </br>&nbsp;&nbsp;title={Retention Time of Peptides in Liquid Chromatography Is Well Estimated upon Deep Transfer Learning},
-</br>&nbsp;&nbsp;author={Chunwei Ma and Zhiyong Zhu et al.},
+</br>&nbsp;&nbsp;author={Chunwei Ma et al.},
 </br>&nbsp;&nbsp;journal={arXiv preprint [arXiv:1711.00045](https://arxiv.org/abs/1711.00045)},
 </br>&nbsp;&nbsp;year={2017}
 </br>}
@@ -16,7 +16,7 @@ Please cite as:
 And cite:
 > @article{ma2017retention,
 </br>&nbsp;&nbsp;title={DeepRT: Deep Learning for Peptide Retention Time Prediction in Proteomics},
-</br>&nbsp;&nbsp;author={Chunwei Ma and Zhiyong Zhu et al.},
+</br>&nbsp;&nbsp;author={Chunwei Ma et al.},
 </br>&nbsp;&nbsp;journal={arXiv preprint [arXiv:1705.05368](https://arxiv.org/abs/1705.05368)},
 </br>&nbsp;&nbsp;year={2017}
 </br>}
