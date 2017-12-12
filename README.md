@@ -54,6 +54,13 @@ The distributions of prediction errors of mouse and yeast datasets:
 As a brief conclusion, by virtue of deep transfer learning, we can 1) predict RT for both modified and unmodified peptides using the same algorithm, 2) refine RT estimation using pretrained RT model, 3) use unmodified peptides to help prediction of modified peptides and vice versa.
 </br></br>Recent studies of this year in analytical chemistry exhibited that the accuracy of relatively simple additive models for RT prediction decreases in the order: CZE (0.995 R<sup>2</sup>) > SCX (0.991 R<sup>2</sup>) > HILIC (0.98 R<sup>2</sup>) > RPLC (∼0.965 R<sup>2</sup>), because of the difference in their separation mechanisms. DeepRT improves the accuracy of RT prediction in RPLC up to as high as ~0.993 R<sup>2</sup>, approaching that of CZE, and thus gives separation scientists insights into the selection of LC types in LC-MS experiments.
 
+## Hyperparameters
+The Hyperparameters of LSTM and ResNet were determined through the following parameter search.
+Hyperparameters for LSTM:
+<div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/HyperParamLSTM.png" width="70%" alt="lstm" /></div>
+Hyperparameters for ResNet:
+<div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/HyperParamResNet.png" width="70%" alt="resnet" /></div>
+
 ## Data Efficiency and Time Complexity
 The following figure shows the performance of DeepRT with training data incresing. While testing, ResNet was run on NVIDIA Tesla M2070 while LSTM was run on Intel CPU with 12 cores. With training data larger than 10k peptides, SVM-based method was prohibitively slow while DeepRT, however, was still efficient, due to its linear time complexity w.r.t number of samples.
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_3.png" width="60%" alt="figure_1" /></div>
