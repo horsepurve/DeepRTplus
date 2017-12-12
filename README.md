@@ -56,6 +56,7 @@ As a brief conclusion, by virtue of deep transfer learning, we can 1) predict RT
 
 ## Hyperparameters
 The Hyperparameters of LSTM and ResNet were determined through the following parameter search.
+
 Hyperparameters for LSTM:
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/HyperParamLSTM.png" width="70%" alt="lstm" /></div>
 Hyperparameters for ResNet:
