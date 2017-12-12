@@ -106,4 +106,4 @@ The authors recommend using [DeeperRT](https://github.com/horsepurve/DeeperRT), 
 <img src="https://github.com/horsepurve/DeepRT/blob/master/img/intel.jpg" width="10%" alt="intel" />
 
 ## contact
-machunwei@genomics.cn
+[Chunwei Ma](machunwei@genomics.cn)
