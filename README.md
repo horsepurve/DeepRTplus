@@ -58,9 +58,9 @@ As a brief conclusion, by virtue of deep transfer learning, we can 1) predict RT
 The Hyperparameters of LSTM and ResNet were determined through the following parameter search.
 
 Hyperparameters for LSTM:
-<div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/HyperParamLSTM.png" width="70%" alt="lstm" /></div>
+<div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/HyperParamLSTM.png" width="63%" alt="lstm" /></div>
 Hyperparameters for ResNet:
-<div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/HyperParamResNet.png" width="70%" alt="resnet" /></div>
+<div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/HyperParamResNet.png" width="63%" alt="resnet" /></div>
 
 ## Data Efficiency and Time Complexity
 The following figure shows the performance of DeepRT with training data incresing. While testing, ResNet was run on NVIDIA Tesla M2070 while LSTM was run on Intel CPU with 12 cores. With training data larger than 10k peptides, SVM-based method was prohibitively slow while DeepRT, however, was still efficient, due to its linear time complexity w.r.t number of samples.
