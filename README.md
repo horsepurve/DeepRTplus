@@ -21,6 +21,9 @@ And cite:
 </br>&nbsp;&nbsp;year={2017}
 </br>}
 
+## From DeepRT to DeeperRT
+The authors recommend using [DeeperRT](https://github.com/horsepurve/DeeperRT), a upgraded more powerful version of DeepRT, for peptide retention time prediction.
+
 ## Brief Introduction
 In separation science and analytical chemistry, the predictions of retention times were primarily based on retention coefficients of amino acids or molecular descriptors of metabolites. Traditionally, retention times of peptides with or without post-translational modifications are predicted separately, and retention times in RPLC, HILIC or SCX are also predicted separately. DeepRT, instead, provides a generic framework for RT prediction, whose architecture is shown in the following figure.
  <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_1.png" width="55%" alt="figure_1" /></div>
@@ -95,9 +98,6 @@ After the training processes of LSTM and ResNet are all finished, we can ensembl
 easy_ensemble.exe config_mod.json
 ```
 And then the Pearson correlation, RMSE, &Delta;t<sub>95%</sub> and the running time will be reported. The predicted retention time for each peptide in the testing dataset will be written to the results directory.
-
-## DeeperRT
-The authors recommend using [DeeperRT](https://github.com/horsepurve/DeeperRT), a upgraded more powerful version of DeepRT, for peptide retention time prediction.
 
 ## Software Copyright
 &copy; 2017 BGI & Intel
