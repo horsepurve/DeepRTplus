@@ -33,7 +33,7 @@ We adopted an N-to-1 LSTM architecture for RT modeling while ResNet was upon the
 ## Prediction Accuracy
 Using a large peptide dataset generated from RPLC with 146587 peptides (131928 peptides for training and 14659 for testing), DeepRT achieved a **Pearson's correlation as high as 0.996** and an <b>R<sup>2</sup> of 0.993</b>, as shown in following figure.
 <div align="center"><img src="https://github.com/horsepurve/DeepRT/blob/master/img/figure_4.png" width="60%" alt="figure_1" /></div>
-While transferring this trained model to other datasets, the prediction accuracy was further improved and the running time was reduced, even though the source and target datasets were generated under different liquid chromatographic conditions, as shown in the table and the figure below, in which (A, B, C, D) are of modified dataset while (E, F, G, H) are of unmodified dataset.
+While transferring this trained model to other datasets, the prediction accuracy was further improved and the running time was reduced, even though the source and target datasets were generated under different liquid chromatographic conditions, as shown in the table and the figure below, in which (A, B, C, D) belong to mouse dataset and (E, F, G, H) belong to yeast dataset.
 
 | dataset | modification | RT (min) | peptides | length | training | testing | Pearson | R<sup>2</sup> | &Delta;t<sub>95%</sub> |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
