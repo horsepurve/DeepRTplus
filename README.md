@@ -102,7 +102,7 @@ easy_ensemble.exe config_mod.json
 And then the Pearson correlation, RMSE, &Delta;t<sub>95%</sub> and the running time will be reported. The predicted retention time for each peptide in the testing dataset will be written to the results directory.
 
 ## Software Copyright
-&copy; 2017 BGI & Intel
+&copy; 2017 BGI & Intel All Rights Reserved.
 
 <img src="https://github.com/horsepurve/DeepRT/blob/master/img/bgi.png" width="15%" alt="bgi" />
 <img src="https://github.com/horsepurve/DeepRT/blob/master/img/intel.jpg" width="10%" alt="intel" />
