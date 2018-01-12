@@ -1,5 +1,5 @@
 # DeepRT: Deep Transfer Learning for Peptide Retention Time Prediction Using Hybrid LSTM-ResNet Architecture
-DeepRT/[DeeperRT](https://github.com/horsepurve/DeeperRT) is currently the most accurate peptide retention time predictor, which was developed collaboratively by BGI and Intel.
+DeepRT/[DeepRT2](https://github.com/horsepurve/DeepRT2) is currently the most accurate peptide retention time predictor, which was developed collaboratively by BGI and Intel.
 
 <!-- ## Preprint 
 [arXiv:1705.05368](https://arxiv.org/abs/1705.05368) (15 May 2017)
@@ -21,8 +21,8 @@ And cite:
 </br>&nbsp;&nbsp;year={2017}
 </br>}
 
-## From DeepRT to DeeperRT
-The authors recommend using [DeeperRT](https://github.com/horsepurve/DeeperRT), an upgraded more powerful version of DeepRT, for peptide retention time prediction.
+## From DeepRT to DeepRT2
+The authors recommend using [DeepRT2](https://github.com/horsepurve/DeepRT2), an upgraded more powerful version of DeepRT, for peptide retention time prediction.
 
 ## Brief Introduction
 In separation science and analytical chemistry, the predictions of retention times were primarily based on retention coefficients of amino acids or molecular descriptors of metabolites. Traditionally, retention times of peptides with or without post-translational modifications are predicted separately, and retention times in RPLC, HILIC or SCX are also predicted separately. DeepRT, instead, provides a generic framework for RT prediction, whose architecture is shown in the following figure.
