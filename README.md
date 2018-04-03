@@ -21,8 +21,8 @@ Contents:
 <h3 id="2.2">2.2 Parameters</h3>
 
 <h2 id="3">3 Citation</h2>
-1. 
+1.
 
-2. 
+2.
 
-3. 
+3.
