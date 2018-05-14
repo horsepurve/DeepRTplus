@@ -8,6 +8,7 @@ Contents:
     - [3.1 Datasets](#3.1)
     - [3.2 Parameters](#3.2)
 * [4 Citation](#4)    
+* [5 Software Copyright](#5)    
 
 <h2 id="1">1 Installation</h2>
 
@@ -25,3 +26,6 @@ Contents:
 
 <h2 id="4">4 Citation</h2>
 under review in 
+
+<h2 id="5">5 Software Copyright</h2>
+&copy; 2018 BGI All Rights Reserved.
