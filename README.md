@@ -11,9 +11,11 @@ Contents:
 * [5 Software Copyright](#5)    
 
 <h2 id="1">1 Installation</h2>
+
 `
 git clone https://github.com/horsepurve/DeepRTplus
 `
+
 <h2 id="2">2 Scripts to reproduce the results</h2>
 
 <h3 id="2.1">2.1 RPLC datasets</h3>
