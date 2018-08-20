@@ -23,7 +23,7 @@ git clone https://github.com/horsepurve/DeepRTplus
 
 <h3 id="2.1">2.1 RPLC datasets</h3>
 
-Script to analyze the HeLa dataset (modification included).
+Script to analyze the HeLa dataset (modifications included):
 
 ```
 sh pipeline_mod.sh  
