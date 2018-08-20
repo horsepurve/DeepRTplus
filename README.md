@@ -37,7 +37,7 @@ sh pipeline_mod.sh
 
 Prepare your dataset as the following format:
 
-`
+```
     sequence	RT
     4GSQEHPIGDK	2507.67
     GDDLQAIK	2996.73
@@ -46,7 +46,7 @@ AH3PLNTPDPSTK	2754.66
 WDSE2NSERDVTK	2645.274  
 TEEGEIDY2AEEGENRR	3210.3959999999997  
 SQGD1QDLNGNNQSVTR	2468.946  
-`
+```
 
 Separate the peptide sequence and RT (in minute) by tab (\t), encode the modified amino acides as digits (currently only four kinds of modification are included in the pre-trained models):
 
