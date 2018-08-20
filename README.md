@@ -38,9 +38,9 @@ sh pipeline_mod.sh
 Prepare your dataset as the following format:
 
 `
-	sequence	RT
-	4GSQEHPIGDK	2507.67  
-GDDLQAIK	2996.73  
+    sequence	RT
+    4GSQEHPIGDK	2507.67
+    GDDLQAIK	2996.73
 FA2FNAYENHLK	4681.428  
 AH3PLNTPDPSTK	2754.66  
 WDSE2NSERDVTK	2645.274  
