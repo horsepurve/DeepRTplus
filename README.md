@@ -65,14 +65,17 @@ Note that you have to use the GPU version to load the pre-trained models, or oth
 <h2 id="5">5 Make prediction using the trained models</h2>
 
 `
-python prediction_emb.py 100 param/dia_all_trans_mod_epo20_dim24_conv10.pt 10 "nbt/"${rt_file}
+python prediction_emb.py 100 param/dia_all_trans_mod_epo20_dim24_conv10.pt 10 ${rt_file}
 `
 
 <h2 id="6">6 Citation</h2>
+
 doi: 10.1021/acs.analchem.8b02386 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/30114359))
 
 <h2 id="7">7 Other models</h2>
 As ResNet and LSTM (already been optimized) were less accurate then capsule network, the codes for ResNet and LSTM were deprecated, and DeepRT(+) (based on CapsNet) is recommended.
 
 <h2 id="8">8 Question?</h2>
+
 [contact](mailto:horsepurve@gmail.com)
+
