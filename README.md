@@ -23,7 +23,7 @@ git clone https://github.com/horsepurve/DeepRTplus
 
 <h3 id="2.1">2.1 RPLC datasets</h3>
 
-Script to analyze the HeLa dataset (modifications included):
+Script to analyze the HeLa dataset (modification included).
 
 ```
 sh pipeline_mod.sh  
@@ -63,7 +63,7 @@ Separate the peptide sequence and RT (in minute) by tab (\t), encode the modifie
 
 Training deep neural network models are time-consuming, especially for large dataset such as the Misc dataset here. However, the prediction accuracy is far from satisfactory without training dataset that big enough. The transfer leaning strategy used here can overcome this issue. You can use your small datasets in hand to fine-tune our pre-trained model in RPLC.
 
-Note that you have to use the GPU version to load the pre-trained models, or otherwise you have to train from scratch on CPU.
+Note that you have to use the GPU version to load the pre-trained models, or otherwise you have train from scratch on CPU.
 
 <h2 id="5">5 Make prediction using the trained models</h2>
 
