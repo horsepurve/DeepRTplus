@@ -11,7 +11,7 @@ Contents:
 * [5 Make prediction using the trained models](#5)    
 * [6 Citation](#6)    
 * [7 Other models](#7)    
-* [8 Questions?](#8)    
+* [8 Questions](#8)    
 
 <h2 id="1">1 Installation</h2>
 
@@ -79,7 +79,7 @@ doi: 10.1021/acs.analchem.8b02386 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/
 
 As ResNet and LSTM (already been optimized) were less accurate then capsule network, the codes for ResNet and LSTM were deprecated, and DeepRT(+) (based on CapsNet) is recommended.
 
-<h2 id="8">8 Question?</h2>
+<h2 id="8">8 Question</h2>
 
 [contact](mailto:horsepurve@gmail.com)
 
