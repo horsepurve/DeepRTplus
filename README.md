@@ -10,7 +10,7 @@ Contents:
 * [4 Transfer learning using our pre-trained models](#4)    
 * [5 Make prediction using the trained models](#5)    
 * [6 Citation](#6)    
-* [7 DeepRT](#7)    
+* [7 Other models](#7)    
 * [8 Questions?](#8)    
 
 <h2 id="1">1 Installation</h2>
