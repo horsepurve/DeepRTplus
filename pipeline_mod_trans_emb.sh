@@ -36,9 +36,10 @@ function do1round()
     echo "min_rt = 0" >> ${6}
     echo "max_rt = 110" >> ${6}
     echo "time_scale = 60" >> ${6}
+    echo "max_length = 50" >> ${6}
 
     cd ..
-    /root/anaconda3/bin/python capsule_network_emb.py
+    python capsule_network_emb.py
     cd work
 }
 
@@ -60,7 +61,7 @@ function ensemble1sed
     conv3=${8}
     result="work/"${1}"_trans_"${2}"_ensemble.txt" # Note this mark
     cd ..
-    /root/anaconda3/bin/python ensemble_emb.py $9 $round1dir $conv1 $round2dir $conv2 $round3dir $conv3 $result > "work/"${1}"_trans_"${2}"_ensemble.log"
+    python ensemble_emb.py $9 $round1dir $conv1 $round2dir $conv2 $round3dir $conv3 $result > "work/"${1}"_trans_"${2}"_ensemble.log"
     cd work
 }
 

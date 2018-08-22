@@ -1,0 +1,62 @@
+# parameters:2869764
+[Epoch 1] Training Loss: 0.4061 (MSE: 7.0000)
+[Epoch 1] Testing Loss: 0.2144 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.01088 | -0.07253
+[Epoch 2] Training Loss: 0.2267 (MSE: 7.0000)
+[Epoch 2] Testing Loss: 0.1944 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.55141 | 0.59560
+[Epoch 3] Training Loss: 0.1920 (MSE: 7.0000)
+[Epoch 3] Testing Loss: 0.1843 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.51426 | 0.47253
+[Epoch 4] Training Loss: 0.1989 (MSE: 7.0000)
+[Epoch 4] Testing Loss: 0.1797 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.51831 | 0.48132
+[Epoch 5] Training Loss: 0.1717 (MSE: 7.0000)
+[Epoch 5] Testing Loss: 0.1623 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.64356 | 0.56484
+[Epoch 6] Training Loss: 0.1456 (MSE: 7.0000)
+[Epoch 6] Testing Loss: 0.1637 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.67096 | 0.60879
+[Epoch 7] Training Loss: 0.1404 (MSE: 7.0000)
+[Epoch 7] Testing Loss: 0.1338 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.82084 | 0.75824
+[Epoch 8] Training Loss: 0.1344 (MSE: 7.0000)
+[Epoch 8] Testing Loss: 0.1341 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.77282 | 0.78462
+[Epoch 9] Training Loss: 0.1137 (MSE: 7.0000)
+[Epoch 9] Testing Loss: 0.1362 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.78433 | 0.77143
+[Epoch 10] Training Loss: 0.1065 (MSE: 7.0000)
+[Epoch 10] Testing Loss: 0.1027 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.88104 | 0.84615
+[Epoch 11] Training Loss: 0.1148 (MSE: 7.0000)
+[Epoch 11] Testing Loss: 0.0968 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.89378 | 0.87692
+[Epoch 12] Training Loss: 0.1134 (MSE: 7.0000)
+[Epoch 12] Testing Loss: 0.1100 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.86012 | 0.87253
+[Epoch 13] Training Loss: 0.0805 (MSE: 7.0000)
+[Epoch 13] Testing Loss: 0.0906 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.90094 | 0.90769
+[Epoch 14] Training Loss: 0.1017 (MSE: 7.0000)
+[Epoch 14] Testing Loss: 0.1225 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.90351 | 0.89011
+[Epoch 15] Training Loss: 0.0867 (MSE: 7.0000)
+[Epoch 15] Testing Loss: 0.1056 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.87711 | 0.90769
+[Epoch 16] Training Loss: 0.0950 (MSE: 7.0000)
+[Epoch 16] Testing Loss: 0.0845 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.92314 | 0.91648
+[Epoch 17] Training Loss: 0.0688 (MSE: 7.0000)
+[Epoch 17] Testing Loss: 0.1219 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.87054 | 0.82418
+[Epoch 18] Training Loss: 0.0774 (MSE: 7.0000)
+[Epoch 18] Testing Loss: 0.0936 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.90098 | 0.89451
+[Epoch 19] Training Loss: 0.0605 (MSE: 7.0000)
+[Epoch 19] Testing Loss: 0.1000 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.89709 | 0.89451
+[Epoch 20] Training Loss: 0.0643 (MSE: 7.0000)
+[Epoch 20] Testing Loss: 0.0915 (MSE: 7.0000)
+>> Corr on 14 testing samples: 0.91095 | 0.92527
+>> time: 1.56304 min

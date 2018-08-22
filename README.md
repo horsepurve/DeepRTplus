@@ -1,5 +1,5 @@
 # DeepRT(+): ultra-precise peptide retention predictor
-Contents:
+
 * [1 Installation](#1) 
 * [2 Scripts to reproduce the results](#2)
     - [2.1 RPLC datasets](#2.1)
@@ -11,7 +11,8 @@ Contents:
 * [5 Make prediction using the trained models](#5)    
 * [6 Citation](#6)    
 * [7 Other models](#7)    
-* [8 Questions](#8)    
+* [8 CPU version](#8)    
+* [9 Questions](#9)    
 
 <h2 id="1">1 Installation</h2>
 
@@ -25,15 +26,21 @@ And then follow DeepRT_install.sh to install the prerequisites.
 
 <h3 id="2.1">2.1 RPLC datasets</h3>
 
-Let's see how to apply DeepRT on HeLa dataset (modifications included).
+Let's see how to apply DeepRT on HeLa dataset (modifications included). Simply type:
 
 ```
-sh pipeline_mod.sh  
+python data_split.py data/mod.txt 9 1 2
+python capsule_network_emb.py
 ```
+
+And you are all set. The HeLa data is split with 9:1 ratio with random seed 2, 9 for training and 1 for testing, and then capsule network begins training. You may check out the prediction result (about 0.985) and log file in typically 3 min (on a laptop with GTX 1070, for example).
+
+To reproduce the result in the paper, just run:
+
 
 <h3 id="2.2">2.2 Other datasets</h3>
 
-See data/README_data.md for a summary and run corresponding pipline.
+See data/README_data.md for a summary and run corresponding pipline. All the necessary parameters for those datasets are stored in config_backup.py.
 
 <h2 id="3">3 Change to your own datasets</h2>
 
@@ -52,7 +59,7 @@ TEEGEIDY2AEEGENRR	3210.3959999999997
 SQGD1QDLNGNNQSVTR	2468.946
 ```
 
-Separate the peptide sequence and RT (in minute) by tab (\t), encode the modified amino acides as digits (currently only four kinds of modification are included in the pre-trained models):
+Separate the peptide sequence and RT (in second) by tab (\t), encode the modified amino acides as digits (currently only four kinds of modification are included in the pre-trained models):
 
 ```
 'M[16]' -> '1',
@@ -75,7 +82,7 @@ Note that you have to use the GPU version to load the pre-trained models, or oth
 python prediction_emb.py 100 param/dia_all_trans_mod_epo20_dim24_conv10.pt 10 ${rt_file}
 ```
 
-<h2 id="6">6 Citation</h2>
+<h2 id="6">6 Publication</h2>
 
 doi: 10.1021/acs.analchem.8b02386 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/30114359))
 
@@ -83,7 +90,11 @@ doi: 10.1021/acs.analchem.8b02386 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/
 
 As ResNet and LSTM (already been optimized) were less accurate then capsule network, the codes for ResNet and LSTM were deprecated, and DeepRT(+) (based on CapsNet) is recommended.
 
-<h2 id="8">8 Question</h2>
+<h2 id="8">8 CPU version</h2>
+
+Running DeepRT on CPU is not recommended, because it is way too slow.  
+
+<h2 id="9">9 Question</h2>
 
 [contact](mailto:horsepurve@gmail.com)
 
