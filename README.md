@@ -17,19 +17,23 @@ Contents:
 
 ```
 git clone https://github.com/horsepurve/DeepRTplus  
+cd DeepRTplus
 ```
+And then follow DeepRT_install.sh to install the prerequisites.
 
 <h2 id="2">2 Scripts to reproduce the results</h2>
 
 <h3 id="2.1">2.1 RPLC datasets</h3>
 
-Script to analyze the HeLa dataset (modification included).
+Let's see how to apply DeepRT on HeLa dataset (modifications included).
 
 ```
 sh pipeline_mod.sh  
 ```
 
 <h3 id="2.2">2.2 Other datasets</h3>
+
+See data/README_data.md for a summary and run corresponding pipline.
 
 <h2 id="3">3 Change to your own datasets</h2>
 

@@ -3,6 +3,7 @@ Dynamic Routing Between Capsules
 https://arxiv.org/abs/1710.09829
 
 PyTorch implementation by Kenta Iwasaki @ Gram.AI.
+CapsRT implemented by horsepurve.
 """
 
 import torch
