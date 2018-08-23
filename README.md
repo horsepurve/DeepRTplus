@@ -92,7 +92,7 @@ conv2_kernel = 10
 
 min_rt = 0
 max_rt = 110 
-time_scale = 60 # set at 60 if your retention time is in minute
+time_scale = 60 # set at 60 if your retention time is in second
 max_length = 50 # maximum length of the peptides
 ```
 
