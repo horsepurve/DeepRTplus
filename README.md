@@ -111,7 +111,7 @@ Note that you have to use the GPU version to load the pre-trained models, or oth
 
 <h2 id="5">5 Make prediction using the trained models</h2>
 
-Predict unknown RT for a new peptide using a current model is easy to do, see below as a demo, which is self-explained:
+Predicting unknown RT for a new peptide using a current model is easy to do, see below as a demo, which is self-explained:
 
 ```
 python prediction_emb.py 100 param/dia_all_trans_mod_epo20_dim24_conv10.pt 10 ${rt_file}
