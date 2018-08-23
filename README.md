@@ -92,8 +92,14 @@ conv2_kernel = 10
 
 min_rt = 0
 max_rt = 110 
-time_scale = 60 
-max_length = 50
+time_scale = 60 # set at 60 if your retention time is in minute
+max_length = 50 # maximum length of the peptides
+```
+
+Then type as following:
+
+```
+python capsule_network_emb.py
 ```
 
 <h2 id="4">4 Transfer learning using our pre-trained models</h2>
