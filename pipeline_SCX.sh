@@ -31,8 +31,14 @@ function do1round()
     echo "conv1_kernel = "${4} >> ${6} # 8
     echo "conv2_kernel = "${5} >> ${6} # 9
 
+    # these params won't change for mod data:
+    echo "min_rt = 0" >> ${6}
+    echo "max_rt = 46" >> ${6}
+    echo "time_scale = 1" >> ${6}
+    echo "max_length = 46" >> ${6}
+
     cd ..
-    /root/miniconda3/bin/python capsule_network.py
+    python capsule_network_emb.py
     cd work
 }
 
@@ -54,24 +60,24 @@ function ensemble1sed
     conv3=${8}
     result="work/"${1}"_notrans_"${2}"_ensemble.txt" # Note thies mark
     cd ..
-    /root/miniconda3/bin/python ensemble.py $9 $round1dir $conv1 $round2dir $conv2 $round3dir $conv3 $result > "work/"${1}"_notrans_"${2}"_ensemble.log"
+    python ensemble_emb.py $9 $round1dir $conv1 $round2dir $conv2 $round3dir $conv3 $result ${10} > "work/"${1}"_notrans_"${2}"_ensemble.log"
     cd work
 }
 
-# echo "job no.1/10"
-# do1round "SCX" 42 1 8 8 "../config.py"
-# do1round "SCX" 42 2 10 10 "../config.py"
-# do1round "SCX" 42 3 12 12 "../config.py"
-# echo "ensemble 3 rounds, 5 epochs each"
-# ensemble1sed "SCX" 42 '1' 8 '2' 10 '3' 12 46
-# echo -e "done\n"
+echo "job no.1/10"
+do1round "SCX" 42 1 8 8 "../config.py"
+do1round "SCX" 42 2 10 10 "../config.py"
+do1round "SCX" 42 3 12 12 "../config.py"
+echo "ensemble 3 rounds, 5 epochs each"
+ensemble1sed "SCX" 42 '1' 8 '2' 10 '3' 12 0 46
+echo -e "done\n"
 
 echo "job no.2/10"
 do1round "SCX" 2 1 8 8 "../config.py"
 do1round "SCX" 2 2 10 10 "../config.py"
 do1round "SCX" 2 3 12 12 "../config.py"
 echo "ensemble 3 rounds, 5 epochs each"
-ensemble1sed "SCX" 2 '1' 8 '2' 10 '3' 12 46
+ensemble1sed "SCX" 2 '1' 8 '2' 10 '3' 12 0 46
 echo -e "done\n"
 
 echo "job no.3/10"
@@ -79,5 +85,5 @@ do1round "SCX" 23 1 8 8 "../config.py"
 do1round "SCX" 23 2 10 10 "../config.py"
 do1round "SCX" 23 3 12 12 "../config.py"
 echo "ensemble 3 rounds, 5 epochs each"
-ensemble1sed "SCX" 23 '1' 8 '2' 10 '3' 12 46
+ensemble1sed "SCX" 23 '1' 8 '2' 10 '3' 12 0 46
 echo -e "done\n"

@@ -38,7 +38,7 @@ function do1round()
     echo "max_length = 49" >> ${6}
 
     cd ..
-    /root/miniconda3/bin/python capsule_network_emb.py
+    python capsule_network_emb.py
     cd work
 }
 
@@ -60,7 +60,7 @@ function ensemble1sed
     conv3=${8}
     result="work/"${1}"_notrans_"${2}"_ensemble.txt" # Note thies mark
     cd ..
-    /root/miniconda3/bin/python ensemble_emb.py ${9} $round1dir $conv1 $round2dir $conv2 $round3dir $conv3 $result ${10} > "work/"${1}"_notrans_"${2}"_ensemble.log"
+    python ensemble_emb.py ${9} $round1dir $conv1 $round2dir $conv2 $round3dir $conv3 $result ${10} > "work/"${1}"_notrans_"${2}"_ensemble.log"
     cd work
 }
 

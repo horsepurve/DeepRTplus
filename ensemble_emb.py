@@ -59,6 +59,7 @@ corpus = Corpus(dictionary, # format: Corpus(dictionary, train_path, val_path=''
                 pad_length=max_length)       
 RTtest = corpus
 
+# print(argv)
 minrt = int(argv[1])
 round1dir = argv[2] # 'work/dia/59/1/'
 conv1 = int(argv[3])
@@ -68,7 +69,6 @@ round3dir = argv[6] # 'work/dia/59/3/'
 conv3 = int(argv[7])
 result_ensemble = argv[8]
 maxrt = int(argv[9])
-# print(argv)
 
 obse, pred_r1 = ensemble1round(round1dir,conv1,conv1,minrt,maxrt)
 _, pred_r2 = ensemble1round(round2dir,conv2,conv2,minrt,maxrt)
