@@ -35,8 +35,14 @@ python capsule_network_emb.py
 
 And you are all set. The HeLa data is split with 9:1 ratio with random seed 2, 9 for training and 1 for testing, and then capsule network begins training. You may check out the prediction result (about 0.985) and log file in typically 3 min (on a laptop with GTX 1070, for example).
 
-To reproduce the result in the paper, just run:
+To reproduce the result in the paper, just run as:
 
+```
+cd work
+sh ../pipeline_mod.sh
+```
+
+And then everything will be done.
 
 <h3 id="2.2">2.2 Other datasets</h3>
 
@@ -74,9 +80,18 @@ Separate the peptide sequence and RT (in second) by tab (\t), encode the modifie
 
 Training deep neural network models are time-consuming, especially for large dataset such as the Misc dataset here. However, the prediction accuracy is far from satisfactory without training dataset that big enough. The transfer leaning strategy used here can overcome this issue. You can use your small datasets in hand to fine-tune our pre-trained model in RPLC.
 
-Note that you have to use the GPU version to load the pre-trained models, or otherwise you have train from scratch on CPU.
+For a demo using the transfer learning strategy, just type:
+
+```
+cd work
+sh ../pipeline_mod_trans_emb.sh
+```
+
+Note that you have to use the GPU version to load the pre-trained models, or otherwise you have to train from scratch on CPU.
 
 <h2 id="5">5 Make prediction using the trained models</h2>
+
+Predict unknown RT for a new peptide using a current model is easy, see below as a demo, which is self-explained:
 
 ```
 python prediction_emb.py 100 param/dia_all_trans_mod_epo20_dim24_conv10.pt 10 ${rt_file}
@@ -90,9 +105,11 @@ doi: 10.1021/acs.analchem.8b02386 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/
 
 As ResNet and LSTM (already been optimized) were less accurate then capsule network, the codes for ResNet and LSTM were deprecated, and DeepRT(+) (based on CapsNet) is recommended.
 
+Of course you can still use SVM for training, use data_adaption.py to change the data format, and then import it to Elude/GPTime.
+
 <h2 id="8">8 CPU version</h2>
 
-Running DeepRT on CPU is not recommended, because it is way too slow.  
+Running DeepRT on CPU is not recommended, because it is way too slow. However, if you have to, duplicate capsule_network_emb.py as capsule_network_emb_cpu.py and make a few amendments by yourself.
 
 <h2 id="9">9 Question</h2>
 
