@@ -9,7 +9,7 @@
     - [3.2 Model parameters](#3.2)
 * [4 Transfer learning using our pre-trained models](#4)    
 * [5 Make prediction using the trained models](#5)    
-* [6 Citation](#6)    
+* [6 Publication](#6)    
 * [7 Other models](#7)    
 * [8 CPU version](#8)    
 * [9 Questions](#9)    
