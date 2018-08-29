@@ -76,7 +76,7 @@ Separate the peptide sequence and RT (in second) by tab (\t), encode the modifie
 
 <h3 id="3.2">3.2 Model parameters</h3>
 
-There are only several parameters to specify for say HeLa data:
+There are only several parameters to specify, e.g. for HeLa data, which is self-explainable:
 
 ```
 train_path = 'data/mod_train_2.txt' 
@@ -117,7 +117,7 @@ Note that you have to use the GPU version to load the pre-trained models, or oth
 
 <h2 id="5">5 Make prediction using the trained models</h2>
 
-Predicting unknown RT for a new peptide using a current model is easy to do, see below as a demo, which is self-explained:
+Predicting unknown RT for a new peptide using a current model is easy to do, see below as a demo, the four parameters of which are RT scale, saved RT model, convolutional filter size and testing file, respectively:
 
 ```
 python prediction_emb.py 100 param/dia_all_trans_mod_epo20_dim24_conv10.pt 10 ${rt_file}
