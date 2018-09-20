@@ -1,0 +1,4 @@
+epochs/*
+result/*.log
+result/*.txt
+__pycache__/*
