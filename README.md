@@ -135,7 +135,7 @@ Of course you can still use SVM for training, use data_adaption.py to change the
 
 <h2 id="8">8 CPU version</h2>
 
-Running DeepRT on CPU is not recommended, because it is way too slow. However, if you have to, duplicate capsule_network_emb.py to be capsule_network_emb_cpu.py and make a few amendments by yourself.
+Running DeepRT on CPU is not recommended, because it is way too slow. However, if you have to, use capsule_network_emb_cpu.py instead of capsule_network_emb.py. You can set BATCH_SIZE to be very large if you have large enough memory.
 
 <h2 id="9">9 Questions</h2>
 
