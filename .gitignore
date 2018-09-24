@@ -1,4 +1,5 @@
-epochs/*
+epochs/*.pt
 result/*.log
 result/*.txt
 __pycache__/*
+data/*.pred

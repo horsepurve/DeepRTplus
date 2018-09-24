@@ -6,12 +6,12 @@
 # numpy
 # scipy
 # matplotlib
-# seaborn
 # pickle
 
-# install TorchNet via https://github.com/torchnet/torchnet.
+# install TorchNet via https://github.com/torchnet/torchnet:
+pip install torchnet
 
-# install tnt via https://github.com/pytorch/tnt, e.g.:
+# install tnt via https://github.com/pytorch/tnt:
 pip install git+https://github.com/pytorch/tnt.git@master
 
 # install TQDM, e.g.:
