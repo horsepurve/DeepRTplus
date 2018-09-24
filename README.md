@@ -117,11 +117,13 @@ Note that you have to use the GPU version to load the pre-trained models, or oth
 
 <h2 id="5">5 Make prediction using the trained models</h2>
 
-Predicting unknown RT for a new peptide using a current model is easy to do, see below as a demo, the four parameters of which are RT scale, saved RT model, convolutional filter size and testing file, respectively:
+Predicting unknown RT for a new peptide using a current model is easy to do, see below as a demo, the four parameters of which are maximum RT, saved RT model, convolutional filter size and testing file, respectively:
 
 ```
-python prediction_emb.py 100 param/dia_all_trans_mod_epo20_dim24_conv10.pt 10 ${rt_file}
+python prediction_emb.py max_rt param/dia_all_trans_mod_epo20_dim24_conv10.pt 10 ${rt_file}
 ```
+
+Before all trainings, we firstly have normalized RTs for all peptides (rt_norm=(rt-min_rt)/(max_rt-min_rt)), so here we use max_rt to change them back to their previous RT scale (supposing min_rt==0).
 
 <h2 id="6">6 Publication</h2>
 
