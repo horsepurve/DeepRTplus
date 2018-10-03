@@ -3,3 +3,6 @@ result/*.log
 result/*.txt
 __pycache__/*
 data/*.pred
+*.backup.sh
+work/*.log
+work/*.txt
