@@ -6,3 +6,4 @@ data/*.pred
 *.backup.sh
 work/*.log
 work/*.txt
+work/mod/*
