@@ -76,7 +76,7 @@ Separate the peptide sequence and RT (in second) by tab (\t), encode the modifie
 
 <h3 id="3.2">3.2 Model parameters</h3>
 
-There are only several parameters to specify, e.g. for HeLa data, which is self-explainable:
+There are only several parameters to specify in config.py, e.g. for HeLa data, which is self-explainable:
 
 ```
 train_path = 'data/mod_train_2.txt' 
