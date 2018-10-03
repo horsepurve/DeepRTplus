@@ -121,7 +121,8 @@ python capsule_network_emb.py
 ```
 
 Please note that:
-- transfer learning can be applied to datasets from same LC: RPLC to RPLC, SCX to SCX, and HILIC to HILIC.
+- transfer learning can only be applied to datasets generated from the same type of LC, e.g. RPLC to RPLC, SCX to SCX, and HILIC to HILIC.
+- provided the same LC type, the species, gradient, and modification status can all be different.   
 - do not change max length or amino acid alphabet here or you need to pre-train the model again.
 - you have to use the GPU version to load the pre-trained models, or otherwise you have to train from scratch on CPU.
 
