@@ -106,14 +106,31 @@ python capsule_network_emb.py
 
 Training deep neural network models are time-consuming, especially for large dataset such as the Misc dataset here. However, the prediction accuracy is far from satisfactory without training dataset that big enough. The transfer leaning strategy used here can overcome this issue. You can use your small datasets in hand to fine-tune our pre-trained model in RPLC.
 
-For a demo using the transfer learning strategy, just type:
+There are only three parameters to change while using transfer learning:
+
+```
+pretrain_path = 'param/dia_all_epo20_dim24_conv10/dia_all_epo20_dim24_conv10_filled.pt' # load pre-trained model
+dict_path = 'data/mod.txt' # load amino acid alphabet including 4 modifications
+max_length = 66 # the max length in pre-trained model
+```
+
+And run the same command again:
+
+```
+python capsule_network_emb.py
+```
+
+Please note that:
+- transfer learning can be applied to datasets from same LC: RPLC to RPLC, SCX to SCX, and HILIC to HILIC.
+- do not change max length or amino acid alphabet here or you need to pre-train model again.
+- you have to use the GPU version to load the pre-trained models, or otherwise you have to train from scratch on CPU.
+
+To reproduce the transfer learning result in the paper, just type:
 
 ```
 cd work
 sh ../pipeline_mod_trans_emb.sh
 ```
-
-Note that you have to use the GPU version to load the pre-trained models, or otherwise you have to train from scratch on CPU.
 
 <h2 id="5">5 Make prediction using the trained models</h2>
 
