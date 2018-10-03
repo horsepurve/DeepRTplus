@@ -110,7 +110,7 @@ There are only three parameters to change while using transfer learning:
 
 ```
 pretrain_path = 'param/dia_all_epo20_dim24_conv10/dia_all_epo20_dim24_conv10_filled.pt' # load pre-trained model
-dict_path = 'data/mod.txt' # load amino acid alphabet including four kinds of modifications
+dict_path = 'data/mod.txt' # load amino acid alphabet including four kinds of modification
 max_length = 66 # the max length in pre-trained model
 ```
 
