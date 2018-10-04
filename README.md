@@ -151,7 +151,7 @@ doi: 10.1021/acs.analchem.8b02386 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/
 
 As ResNet and LSTM (already been optimized) were less accurate then capsule network, the codes for ResNet and LSTM were deprecated, and DeepRT(+) (based on CapsNet) is recommended.
 
-Of course you can still use SVM for training, use data_adaption.py to change the data format, and then import it to Elude/GPTime.
+You can still use SVM for training. To do so, use data_adaption.py to change the data format, and then import it to Elude/GPTime.
 
 <h2 id="8">8 CPU version</h2>
 
