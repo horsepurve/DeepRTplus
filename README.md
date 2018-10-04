@@ -138,10 +138,10 @@ sh ../pipeline_mod_trans_emb.sh
 Predicting unknown RT for a new peptide using a current model is easy to do, see below as a demo, the four parameters of which are maximum RT, saved RT model, convolutional filter size and testing file, respectively:
 
 ```
-python prediction_emb.py max_rt param/dia_all_trans_mod_epo20_dim24_conv10.pt 10 ${rt_file}
+python prediction_emb.py max_rt param/dia_all_trans_mod_epo20_dim24_conv10.pt 10 test_path
 ```
 
-Before all trainings, we firstly have normalized RTs for all peptides (rt_norm=(rt-min_rt)/(max_rt-min_rt)), so here we use max_rt to change them back to their previous RT scale (supposing min_rt==0).
+And the predicted RT will be written to test_path.pred. Note that before all trainings, we firstly have normalized RTs for all peptides (rt_norm=(rt-min_rt)/(max_rt-min_rt)), so here we use max_rt to change them back to their previous RT scale (supposing min_rt is 0).
 
 <h2 id="6">6 Publication</h2>
 
