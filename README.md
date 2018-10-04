@@ -104,7 +104,7 @@ python capsule_network_emb.py
 
 <h2 id="4">4 Transfer learning using our pre-trained models</h2>
 
-Training deep neural network models are time-consuming, especially for large dataset such as the Misc dataset here. However, the prediction accuracy is far from satisfactory without training dataset that big enough. The transfer leaning strategy used here can overcome this issue. You can use your small datasets in hand to fine-tune our pre-trained model in RPLC.
+Training deep neural network models is time-consuming, especially for large dataset such as the Misc dataset here. However, the prediction accuracy is far from satisfactory without training dataset that big enough. The transfer leaning strategy used here can overcome this issue. You can use your small datasets in hand to fine-tune our pre-trained model in RPLC.
 
 There are only three parameters to change while using transfer learning:
 
