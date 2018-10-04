@@ -3,7 +3,7 @@ test_path = 'data/mod_test_2.txt'
 result_path = 'result/mod_test_2.pred.txt'
 log_path = 'result/mod_test_2.log'
 save_prefix = 'epochs'
-pretrain_path = '' # 'param/dia_all_epo20_dim24_conv10/dia_all_epo20_dim24_conv10.pt' # 'param/dia_all_trans_mod_epo20_dim24_conv10.pt' 
+pretrain_path = '' # 'param/dia_all_epo20_dim24_conv10/dia_all_epo20_dim24_conv10_filled.pt' # 'param/dia_all_trans_mod_epo20_dim24_conv10.pt' 
 dict_path = '' # 'data/mod.txt'
 
 conv1_kernel = 10
