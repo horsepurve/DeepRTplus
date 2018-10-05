@@ -157,6 +157,8 @@ You can still use SVM for training. To do so, use data_adaption.py to change the
 
 Running DeepRT on CPU is not recommended, because it is way too slow. However, if you have to, use capsule_network_emb_cpu.py instead of capsule_network_emb.py. You can set BATCH_SIZE to be very large if you have large enough memory.
 
+Transfer learning on CPU is now supported. Load CPU pre-trained models from param_cpu.
+
 <h2 id="9">9 Questions</h2>
 
 [contact](mailto:horsepurve@gmail.com)
