@@ -20,7 +20,7 @@
 git clone https://github.com/horsepurve/DeepRTplus  
 cd DeepRTplus
 ```
-And then follow DeepRT_install.sh to install the prerequisites.
+And then follow DeepRT_install.sh to install the prerequisites. Note that only PyTorch 0.3.0 and 0.4.0 are tested.
 
 <h2 id="2">2 Scripts to reproduce the results</h2>
 
