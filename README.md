@@ -42,7 +42,7 @@ cd work
 sh ../pipeline_mod.sh
 ```
 
-And then you may see the reports in work directory.
+And then you may see the reports (predicted normalized RT, Pearson/Spearman correlation) in work directory.
 
 Please use the CPU versions (capsule_network_emb_cpu.py and ensemble_emb_cpu.py) in the scripts if you run on a CPU. For example:
 
