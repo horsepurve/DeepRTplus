@@ -44,6 +44,8 @@ sh ../pipeline_mod.sh
 
 And then you may see the reports in work directory.
 
+Please use the CPU versions (capsule_network_emb_cpu.py and ensemble_emb_cpu.py) in the scripts if you run on a CPU (see below).
+
 <h3 id="2.2">2.2 Other datasets</h3>
 
 See data/README_data.md for a summary and run corresponding pipline. All the necessary parameters for those datasets are stored in config_backup.py.
@@ -158,6 +160,8 @@ You can still use SVM for training. To do so, use data_adaption.py to change the
 Running DeepRT on CPU is not recommended, because it is way too slow. However, if you have to, use capsule_network_emb_cpu.py instead of capsule_network_emb.py. You can set BATCH_SIZE to be very large if you have large enough memory.
 
 Transfer learning on CPU is now supported. Load CPU pre-trained models from param_cpu.
+
+If you are running the pipelines using CPU, please substitute ensemble_emb_cpu.py for ensemble_emb.py in the scripts.
 
 <h2 id="9">9 Questions</h2>
 
