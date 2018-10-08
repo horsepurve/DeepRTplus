@@ -72,18 +72,18 @@ echo "ensemble 3 rounds, 5 epochs each"
 ensemble1sed "SCX" 42 '1' 8 '2' 10 '3' 12 0 46
 echo -e "done\n"
 
-echo "job no.2/10"
-do1round "SCX" 2 1 8 8 "../config.py"
-do1round "SCX" 2 2 10 10 "../config.py"
-do1round "SCX" 2 3 12 12 "../config.py"
-echo "ensemble 3 rounds, 5 epochs each"
-ensemble1sed "SCX" 2 '1' 8 '2' 10 '3' 12 0 46
-echo -e "done\n"
+# echo "job no.2/10"
+# do1round "SCX" 2 1 8 8 "../config.py"
+# do1round "SCX" 2 2 10 10 "../config.py"
+# do1round "SCX" 2 3 12 12 "../config.py"
+# echo "ensemble 3 rounds, 5 epochs each"
+# ensemble1sed "SCX" 2 '1' 8 '2' 10 '3' 12 0 46
+# echo -e "done\n"
 
-echo "job no.3/10"
-do1round "SCX" 23 1 8 8 "../config.py"
-do1round "SCX" 23 2 10 10 "../config.py"
-do1round "SCX" 23 3 12 12 "../config.py"
-echo "ensemble 3 rounds, 5 epochs each"
-ensemble1sed "SCX" 23 '1' 8 '2' 10 '3' 12 0 46
-echo -e "done\n"
+# echo "job no.3/10"
+# do1round "SCX" 23 1 8 8 "../config.py"
+# do1round "SCX" 23 2 10 10 "../config.py"
+# do1round "SCX" 23 3 12 12 "../config.py"
+# echo "ensemble 3 rounds, 5 epochs each"
+# ensemble1sed "SCX" 23 '1' 8 '2' 10 '3' 12 0 46
+# echo -e "done\n"

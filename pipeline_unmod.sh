@@ -72,74 +72,74 @@ echo "ensemble 3 rounds, 5 epochs each"
 ensemble1sed "unmod" 2 '1' 8 '2' 10 '3' 12 0 264
 echo -e "done\n"
 
-echo "job no.2/10"
-do1round "unmod" 313 1 8 8 "../config.py"
-do1round "unmod" 313 2 10 10 "../config.py"
-do1round "unmod" 313 3 12 12 "../config.py"
-echo "ensemble 3 rounds, 5 epochs each"
-ensemble1sed "unmod" 313 '1' 8 '2' 10 '3' 12 0 264
-echo -e "done\n"
+# echo "job no.2/10"
+# do1round "unmod" 313 1 8 8 "../config.py"
+# do1round "unmod" 313 2 10 10 "../config.py"
+# do1round "unmod" 313 3 12 12 "../config.py"
+# echo "ensemble 3 rounds, 5 epochs each"
+# ensemble1sed "unmod" 313 '1' 8 '2' 10 '3' 12 0 264
+# echo -e "done\n"
 
-echo "job no.3/10"
-do1round "unmod" 23 1 8 8 "../config.py"
-do1round "unmod" 23 2 10 10 "../config.py"
-do1round "unmod" 23 3 12 12 "../config.py"
-echo "ensemble 3 rounds, 5 epochs each"
-ensemble1sed "unmod" 23 '1' 8 '2' 10 '3' 12 0 264
-echo -e "done\n"
+# echo "job no.3/10"
+# do1round "unmod" 23 1 8 8 "../config.py"
+# do1round "unmod" 23 2 10 10 "../config.py"
+# do1round "unmod" 23 3 12 12 "../config.py"
+# echo "ensemble 3 rounds, 5 epochs each"
+# ensemble1sed "unmod" 23 '1' 8 '2' 10 '3' 12 0 264
+# echo -e "done\n"
 
-echo "job no.4/10"
-do1round "unmod" 59 1 8 8 "../config.py"
-do1round "unmod" 59 2 10 10 "../config.py"
-do1round "unmod" 59 3 12 12 "../config.py"
-echo "ensemble 3 rounds, 5 epochs each"
-ensemble1sed "unmod" 59 '1' 8 '2' 10 '3' 12 0 264
-echo -e "done\n"
+# echo "job no.4/10"
+# do1round "unmod" 59 1 8 8 "../config.py"
+# do1round "unmod" 59 2 10 10 "../config.py"
+# do1round "unmod" 59 3 12 12 "../config.py"
+# echo "ensemble 3 rounds, 5 epochs each"
+# ensemble1sed "unmod" 59 '1' 8 '2' 10 '3' 12 0 264
+# echo -e "done\n"
 
-echo "job no.5/10"
-do1round "unmod" 97 1 8 8 "../config.py"
-do1round "unmod" 97 2 10 10 "../config.py"
-do1round "unmod" 97 3 12 12 "../config.py"
-echo "ensemble 3 rounds, 5 epochs each"
-ensemble1sed "unmod" 97 '1' 8 '2' 10 '3' 12 0 264
-echo -e "done\n"
+# echo "job no.5/10"
+# do1round "unmod" 97 1 8 8 "../config.py"
+# do1round "unmod" 97 2 10 10 "../config.py"
+# do1round "unmod" 97 3 12 12 "../config.py"
+# echo "ensemble 3 rounds, 5 epochs each"
+# ensemble1sed "unmod" 97 '1' 8 '2' 10 '3' 12 0 264
+# echo -e "done\n"
 
-echo "job no.6/10"
-do1round "unmod" 137 1 8 8 "../config.py"
-do1round "unmod" 137 2 10 10 "../config.py"
-do1round "unmod" 137 3 12 12 "../config.py"
-echo "ensemble 3 rounds, 5 epochs each"
-ensemble1sed "unmod" 137 '1' 8 '2' 10 '3' 12 0 264
-echo -e "done\n"
+# echo "job no.6/10"
+# do1round "unmod" 137 1 8 8 "../config.py"
+# do1round "unmod" 137 2 10 10 "../config.py"
+# do1round "unmod" 137 3 12 12 "../config.py"
+# echo "ensemble 3 rounds, 5 epochs each"
+# ensemble1sed "unmod" 137 '1' 8 '2' 10 '3' 12 0 264
+# echo -e "done\n"
 
-echo "job no.7/10"
-do1round "unmod" 179 1 8 8 "../config.py"
-do1round "unmod" 179 2 10 10 "../config.py"
-do1round "unmod" 179 3 12 12 "../config.py"
-echo "ensemble 3 rounds, 5 epochs each"
-ensemble1sed "unmod" 179 '1' 8 '2' 10 '3' 12 0 264
-echo -e "done\n"
+# echo "job no.7/10"
+# do1round "unmod" 179 1 8 8 "../config.py"
+# do1round "unmod" 179 2 10 10 "../config.py"
+# do1round "unmod" 179 3 12 12 "../config.py"
+# echo "ensemble 3 rounds, 5 epochs each"
+# ensemble1sed "unmod" 179 '1' 8 '2' 10 '3' 12 0 264
+# echo -e "done\n"
 
-echo "job no.8/10"
-do1round "unmod" 227 1 8 8 "../config.py"
-do1round "unmod" 227 2 10 10 "../config.py"
-do1round "unmod" 227 3 12 12 "../config.py"
-echo "ensemble 3 rounds, 5 epochs each"
-ensemble1sed "unmod" 227 '1' 8 '2' 10 '3' 12 0 264
-echo -e "done\n"
+# echo "job no.8/10"
+# do1round "unmod" 227 1 8 8 "../config.py"
+# do1round "unmod" 227 2 10 10 "../config.py"
+# do1round "unmod" 227 3 12 12 "../config.py"
+# echo "ensemble 3 rounds, 5 epochs each"
+# ensemble1sed "unmod" 227 '1' 8 '2' 10 '3' 12 0 264
+# echo -e "done\n"
 
-echo "job no.9/10"
-do1round "unmod" 269 1 8 8 "../config.py"
-do1round "unmod" 269 2 10 10 "../config.py"
-do1round "unmod" 269 3 12 12 "../config.py"
-echo "ensemble 3 rounds, 5 epochs each"
-ensemble1sed "unmod" 269 '1' 8 '2' 10 '3' 12 0 264
-echo -e "done\n"
+# echo "job no.9/10"
+# do1round "unmod" 269 1 8 8 "../config.py"
+# do1round "unmod" 269 2 10 10 "../config.py"
+# do1round "unmod" 269 3 12 12 "../config.py"
+# echo "ensemble 3 rounds, 5 epochs each"
+# ensemble1sed "unmod" 269 '1' 8 '2' 10 '3' 12 0 264
+# echo -e "done\n"
 
-echo "job no.10/10"
-do1round "unmod" 367 1 8 8 "../config.py"
-do1round "unmod" 367 2 10 10 "../config.py"
-do1round "unmod" 367 3 12 12 "../config.py"
-echo "ensemble 3 rounds, 5 epochs each"
-ensemble1sed "unmod" 367 '1' 8 '2' 10 '3' 12 0 264
-echo -e "done\n"
+# echo "job no.10/10"
+# do1round "unmod" 367 1 8 8 "../config.py"
+# do1round "unmod" 367 2 10 10 "../config.py"
+# do1round "unmod" 367 3 12 12 "../config.py"
+# echo "ensemble 3 rounds, 5 epochs each"
+# ensemble1sed "unmod" 367 '1' 8 '2' 10 '3' 12 0 264
+# echo -e "done\n"
