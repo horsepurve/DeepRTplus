@@ -44,7 +44,12 @@ sh ../pipeline_mod.sh
 
 And then you may see the reports in work directory.
 
-Please use the CPU versions (capsule_network_emb_cpu.py and ensemble_emb_cpu.py) in the scripts if you run on a CPU (see below).
+Please use the CPU versions (capsule_network_emb_cpu.py and ensemble_emb_cpu.py) in the scripts if you run on a CPU. For example:
+
+```
+cd work
+sh ../pipeline_mod_cpu.sh # run the CPU version
+```
 
 <h3 id="2.2">2.2 Other datasets</h3>
 

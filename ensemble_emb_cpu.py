@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 from torch.autograd import Variable
-from capsule_network_emb import *
+from capsule_network_emb_cpu import *
 import pickle
 from sys import argv
 
@@ -24,10 +24,10 @@ def pred_from_model(conv1_kernel,
     # TODO: handle int
     pred_batch_number = int(RTdata.test.shape[0] / PRED_BATCH)+1
     for bi in range(pred_batch_number):
-        test_batch = Variable(RTdata.test[bi*PRED_BATCH:(bi+1)*PRED_BATCH,:])
+        test_batch = Variable(RTdata.test[bi*PRED_BATCH:(bi+1)*PRED_BATCH,:])    
         # test_batch = test_batch.cuda()
         pred_batch = model(test_batch)
-        pred = np.append(pred, pred_batch[0].data.cpu().numpy().flatten())        
+        pred = np.append(pred, pred_batch[0].data.numpy().flatten()) # remove data.cpu().etc   
     return RTdata.test_label.numpy().flatten(), pred
 
 import copy
