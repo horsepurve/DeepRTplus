@@ -90,7 +90,7 @@ train_path = 'data/mod_train_2.txt'
 test_path = 'data/mod_test_2.txt' 
 result_path = 'result/mod_test_2.pred.txt'
 log_path = 'result/mod_test_2.log'
-save_prefix = 'epochs'
+save_prefix = 'epochs' # this is where we store the models when training
 pretrain_path = ''
 dict_path = '' 
 
