@@ -152,7 +152,7 @@ The test_path stores the sequences and real RT values of the peptides you want t
 
 <h2 id="6">6 Publication</h2>
 
-doi: 10.1021/acs.analchem.8b02386 ([PubMed](https://www.ncbi.nlm.nih.gov/pubmed/30114359))
+[DOI: 10.1021/acs.analchem.8b02386](https://pubs.acs.org/doi/10.1021/acs.analchem.8b02386)
 
 <h2 id="7">7 Other models</h2>
 
