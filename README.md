@@ -6,7 +6,7 @@ Overview:
 - Support different LC types: RPLC, SCX, HILIC and more.
 - Extract retention-related properties of amino acids.
 - Current precision (R<sup>2</sup>): RPLC 0.995, SCX 0.994, and HILIC 0.993.
-- Discriminate between structurely similar peptides using RT.
+- Discriminate between structurally similar peptides using RT.
 - Use RT to further improve peptide identification & quantification.
 
 Content:
@@ -43,7 +43,7 @@ python data_split.py data/mod.txt 9 1 2
 python capsule_network_emb.py
 ```
 
-The HeLa data is split with 9:1 ratio with random seed 2, 9 for training and 1 for testing, and then capsule network begins training. You may check out the prediction result (about 0.985 ACC) and log file in typically 3 minutes (on a laptop with GTX 1070, for example).
+The HeLa data is split with 9:1 ratio with random seed 2, 9 for training and 1 for testing, and then the capsule network begins training. You may check out the prediction result (about 0.985 ACC) and log file in typically 3 minutes (on a laptop with GTX 1070, for example).
 
 To reproduce the result in the paper, just run as:
 
@@ -52,7 +52,7 @@ cd work
 sh ../pipeline_mod.sh
 ```
 
-And then you may see the reports (predicted normalized RT, Pearson/Spearman correlation) in work directory.
+And then you may see the reports (predicted normalized RT, Pearson/Spearman correlation) in the work directory.
 
 Please use the CPU versions (capsule_network_emb_cpu.py and ensemble_emb_cpu.py) in the scripts if you run on a CPU. For example:
 
@@ -63,7 +63,7 @@ sh ../pipeline_mod_cpu.sh # run the CPU version
 
 <h3 id="2.2">2.2 Other datasets</h3>
 
-See data/README_data.md for a summary and run corresponding pipline. All the necessary parameters for those datasets are stored in config_backup.py.
+See data/README_data.md for a summary and run the corresponding pipeline. All the necessary parameters for those datasets are stored in config_backup.py.
 
 <h2 id="3">3 Change to your own datasets</h2>
 
@@ -158,7 +158,7 @@ Predicting unknown RT for a new peptide using a current model is easy to do, see
 python prediction_emb.py max_rt param/dia_all_trans_mod_epo20_dim24_conv10.pt 10 test_path
 ```
 
-The test_path stores the sequences and real RT values of the peptides you want to predict. However, if you actually don't know their real RT values, just let them be dummy values like 0 in this file, and the predicted RT will be written to test_path.pred. Note that before all trainings, we firstly have normalized RTs for all peptides (rt_norm=(rt-min_rt)/(max_rt-min_rt)), so here we use max_rt to change them back to their previous RT scale (supposing min_rt is 0).
+The test_path stores the sequences and real RT values of the peptides you want to predict. However, if you actually don't know their real RT values, just let them be dummy values like 0 in this file, and the predicted RT will be written to test_path.pred. Note that before training, we firstly have normalized RTs for all peptides (rt_norm=(rt-min_rt)/(max_rt-min_rt)), so here we use max_rt to change them back to their previous RT scale (supposing min_rt is 0).
 
 <h2 id="6">6 Publication</h2>
 
