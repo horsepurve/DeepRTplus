@@ -1,6 +1,6 @@
 # A summary of the datasets
 
-| dataset | file name | ref | 
+| dataset | file name | reference | 
 | :-: | :-: | :-: |
 | HeLa | mod.txt | Sharma et al. |
 | Yeast | unmod.txt | Nagaraj et al. |
