@@ -15,12 +15,12 @@ Overview:
 3. [Change to your own datasets](#3)
     - [3.1 Datasets](#3.1)
     - [3.2 Model parameters](#3.2)
-* [4 Transfer learning using our pre-trained models](#4)    
-* [5 Make prediction using the trained models](#5)    
-* [6 Publication](#6)    
-* [7 Other models](#7)    
-* [8 CPU version](#8)    
-* [9 Questions](#9)    
+4. [Transfer learning using our pre-trained models](#4)    
+5. [Make prediction using the trained models](#5)    
+6. [Publication](#6)    
+7. [Other models](#7)    
+8. [CPU version](#8)    
+9. [Questions](#9)    
 
 <h2 id="1">1 Installation</h2>
 
