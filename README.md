@@ -6,7 +6,7 @@ Overview:
 - Support different LC types: RPLC, SCX, HILIC and more.
 - Extract retention-related properties of amino acids.
 - Current precision (R<sup>2</sup>): RPLC 0.995, SCX 0.994, and HILIC 0.993.
-- Discriminate between structurely similar peptide using RT.
+- Discriminate between structurely similar peptides using RT.
 
 Content:
 1. [Installation](#1) 
