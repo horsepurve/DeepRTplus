@@ -8,6 +8,7 @@ Overview:
 - Current precision (R<sup>2</sup>): RPLC 0.995, SCX 0.994, and HILIC 0.993.
 - Discriminate between structurely similar peptide using RT.
 
+Content:
 1. [Installation](#1) 
 2. [Scripts to reproduce the results](#2)
     - [2.1 RPLC datasets](#2.1)
