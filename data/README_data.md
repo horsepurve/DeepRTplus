@@ -1,15 +1,15 @@
 # A summary of the datasets
 
-| dataset | file name |
-| :-: | :-: |
-| HeLa | mod.txt |
-| Yeast | unmod.txt |
-| Misc | dia.txt |
-| SCX | SCX.txt |
-| Luna HILIC | LUNA_HILIC.txt |
-| Xbridge Amide | LUNA_SILICA.txt |
-| Atlantis Silica | ATLANTIS_SILICA.txt |
-| Luna Silica | LUNA_SILICA.txt | 
+| dataset | file name | ref | 
+| :-: | :-: | :-: |
+| HeLa | mod.txt | Sharma et al. |
+| Yeast | unmod.txt | Nagaraj et al. |
+| Misc | dia.txt | Rosenberger et al. |
+| SCX | SCX.txt | Gussakovsky et al. |
+| Luna HILIC | LUNA_HILIC.txt | Spicer et al. |
+| Xbridge Amide | LUNA_SILICA.txt | Spicer et al. |
+| Atlantis Silica | ATLANTIS_SILICA.txt | Spicer et al. |
+| Luna Silica | LUNA_SILICA.txt | Spicer et al. |
 
 # Copyright
 
