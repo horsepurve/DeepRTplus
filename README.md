@@ -1,5 +1,6 @@
 # DeepRT(+): ultra-precise peptide retention predictor
 
+Overview:
 - Predict peptide retention time by capsule network with embedding.
 - handle multiple LC conditions by transfer learning, and predict with limited data.
 - Support different LC types: RPLC, SCX, HILIC and more.
@@ -7,11 +8,11 @@
 - Current precision (R<sup>2</sup>): RPLC 0.995, SCX 0.994, and HILIC 0.993.
 - Discriminate between structurely similar peptide using RT.
 
-1. [1 Installation](#1) 
-* [2 Scripts to reproduce the results](#2)
+1. [Installation](#1) 
+2. [Scripts to reproduce the results](#2)
     - [2.1 RPLC datasets](#2.1)
     - [2.2 Other datasets](#2.2)
-* [3 Change to your own datasets](#3)
+3. [Change to your own datasets](#3)
     - [3.1 Datasets](#3.1)
     - [3.2 Model parameters](#3.2)
 * [4 Transfer learning using our pre-trained models](#4)    
