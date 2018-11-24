@@ -5,7 +5,7 @@ Overview:
 - Handle multiple LC conditions by transfer learning, and predict with limited data.
 - Support different LC types: RPLC, SCX, HILIC and more.
 - Extract retention-related properties of amino acids.
-- Current precision (R<sup>2</sup>): RPLC 0.995, SCX 0.994, and HILIC 0.993.
+- Current precision (R<sup>2</sup>): RPLC 0.995, SCX 0.996, and HILIC 0.993.
 - Discriminate between structurally similar peptides using RT.
 
 Content:
