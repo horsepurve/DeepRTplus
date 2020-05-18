@@ -1,6 +1,6 @@
 # DeepRT(+): ultra-precise peptide retention predictor
 
-![alt text](https://github.com/horsepurve/DeepRTplus/blob/master/img/pip.tif)
+![alt text](https://github.com/horsepurve/DeepRTplus/blob/master/img/pip.png)
 Overview:
 - Predict peptide retention time by capsule network with embedding.
 - Handle multiple LC conditions by transfer learning, and predict with limited data.
