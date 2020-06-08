@@ -91,6 +91,8 @@ Separate the peptide sequence and RT (in second) by tab (\t), encode the modifie
 'Y[80]' -> '4'
 ```
 
+You may use Excel (search and replace than export) to prepare your data.
+
 <h3 id="3.2">3.2 Model parameters</h3>
 
 There are only several parameters to specify in config.py, e.g. for HeLa data, which is self-explainable:
@@ -142,6 +144,7 @@ Please note that:
 - provided the same LC type, the species, gradient, and modification status can all be different.   
 - do not change max length or amino acid alphabet here or you need to pre-train the model again.
 - you have to use the GPU version to load the pre-trained models in param/. If you are using the CPU version, load model from param_cpu instead.
+- the pretrained models for all the datasets used in the paper (including RPLC, SCX, and HILIC) are provided. See [Release page](https://github.com/horsepurve/DeepRTplus/releases) for details.
 
 To reproduce the transfer learning result in the paper, just type:
 
