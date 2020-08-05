@@ -91,7 +91,7 @@ Separate the peptide sequence and RT (in second) by tab (\t), encode the modifie
 'Y[80]' -> '4'
 ```
 
-You may use Excel (search and replace than export) to prepare your data.
+You may use Excel (search and replace then export) to prepare your data.
 
 <h3 id="3.2">3.2 Model parameters</h3>
 
