@@ -167,6 +167,20 @@ The test_path stores the sequences and real RT values of the peptides you want t
 
 Please refer to [DOI: 10.1021/acs.analchem.8b02386](https://pubs.acs.org/doi/10.1021/acs.analchem.8b02386).
 
+If you find the software useful please consider citing:
+
+```bibtex
+@article{ma2018deeprt,
+    author = {Ma, Chunwei and Ren, Yan and Yang, Jiarui and Ren, Zhe and Yang, Huanming and Liu, Siqi},
+    title = {Improved Peptide Retention Time Prediction in Liquid Chromatography through Deep Learning},
+    journal = {Analytical Chemistry},
+    volume = {90},
+    number = {18},
+    pages = {10881-10888},
+    year = {2018}
+}
+```
+
 <h2 id="7">7 Other models</h2>
 
 As ResNet and LSTM (already been optimized) were less accurate then capsule network, the codes for ResNet and LSTM were deprecated, and DeepRT(+) (based on CapsNet) is recommended.
