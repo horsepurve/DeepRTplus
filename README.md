@@ -43,7 +43,7 @@ python data_split.py data/mod.txt 9 1 2
 python capsule_network_emb.py
 ```
 
-The HeLa data is split with 9:1 ratio with random seed 2, 9 for training and 1 for testing, and then the capsule network begins training. You may check out the prediction result (about 0.985 ACC) and log file in typically 3 minutes (on a laptop with GTX 1070, for example).
+The HeLa data is split with 9:1 ratio with random seed 2, 9 for training and 1 for testing, and then the capsule network begins training. You may check out the prediction result (about 0.985 Pearson) and log file in typically 3 minutes (on a laptop with GTX 1070, for example).
 
 To reproduce the result in the paper, just run as:
 
